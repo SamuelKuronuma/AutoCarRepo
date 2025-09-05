@@ -11,4 +11,13 @@ public class ClasseCarros extends ClasseAutomotores {
 		
 		this.quantidadePortasAt = quantidadePortasPar;
 	}
+	//Getters (public + tipo + return)
+		public int pegarQuantidadePortas() {
+			return quantidadePortasAt;
+		}
+	//Setters (public void + parâmetros + this)
+		
+		public void AlterarQuantidadePortas(int quantidadePortasPar){
+			this.quantidadePortasAt = quantidadePortasPar;
+		}
 }
