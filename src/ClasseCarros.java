@@ -1,5 +1,6 @@
 
 public class ClasseCarros extends ClasseAutomotores {
+	
 	int quantidadePortasAt;
 	
 	//Super
@@ -8,6 +9,6 @@ public class ClasseCarros extends ClasseAutomotores {
 		
 		super(corPar, marcaPar, modeloPar, tipoPar);
 		
-		this quantidadePortasAt = quantidadePortasPar;
+		this.quantidadePortasAt = quantidadePortasPar;
 	}
 }
